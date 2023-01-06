@@ -1,0 +1,39 @@
+body {
+    background-image: url(abcd.webp);
+    align-items: center;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 2700px;
+}
+
+p{
+    width: 450px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 650px;
+    margin-right: 550px;
+    margin-bottom: 0px;
+}
+
+button{
+    width: 450px;
+    height: 50px;
+    padding: 15px 0;
+    border-radius: 30px;
+    margin-top: 250px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 0px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    min-height: 200px;
+    position: relative;
+}
+button:hover{
+    transition: 1s;
+    background-color:#D2DAFF;
+    box-shadow: 15px 15px #EEF1FF;
+}
+

@@ -1,0 +1,90 @@
+body {background-color: #513252;}
+
+
+
+button{
+    width: 100px;
+    height: 20px;
+    padding: 15px 0;
+    border-radius: 30px;
+    margin: 0px 20px 50px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    min-height: 50px;
+    position: relative;
+}
+button:hover{
+    transition: 1s;
+    background-color:#D2DAFF;
+    box-shadow: 15px 15px #EEF1FF;
+}
+
+.name{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+
+.konum{
+    width: 450px;
+    height: 50px;
+    padding: 15px 0;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    min-height: 200px;
+    position: relative;
+}
+
+.konumtwo{
+    width: 450px;
+    height: 50px;
+    padding: 50px 0 ;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    min-height: 200px;
+    position: relative;
+}
+
+.konumthree{
+    width: 450px;
+    height: 50px;
+    padding: 50px 0 ;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: right;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    min-height: 200px;
+    position: relative;
+}
+
+.weather{
+    padding: 15px 0;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+}
+
+
+
+
+.konum{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem, 1fr) );
+    gap: 15px;
+}
